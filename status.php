@@ -7,7 +7,7 @@ declare(strict_types=1);
  */
 function serviceStatus(string $serviceName): string
 {
-    return "Servizio {$serviceName}: pronto";
+    return "Servizio {$serviceName}: PRONTO";
 }
 
 $serviceName = $argv[1] ?? 'demo';
