@@ -81,9 +81,18 @@ $serviceName = $argv[1] ?? 'demo';
 echo serviceStatus($serviceName) . PHP_EOL;
 ```
 
+- **Modifica uppercase "PRONTO"**: Aggiornato l'output della funzione `serviceStatus()` per stampare "PRONTO" in maiuscolo anziché minuscolo, migliorando la visibilità del messaggio di stato
+- Branch: `feat/uppercase-status`
+- Commit: `5b2a26b`
+
+- **Release iniziale**: Creazione dello script `status.php` con funzionalità base
+- Supporto per argomenti da linea di comando
+- Funzione `serviceStatus()` con strict types
+- Commit: `7a4497b`
+
 ## Manutenzione
 
 Per qualsiasi modifica o aggiornamento dello script, seguire le best practice Git:
 - Creare un branch dedicato per la feature/fix
 - Testare le modifiche prima del merge
-- Documentare le modifiche nel commit message
+- Documentare le modifiche nel commit message 

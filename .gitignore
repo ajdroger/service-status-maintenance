@@ -1,0 +1,25 @@
+# File di preparazione ed esercizio
+preparazione.txt
+preparazione.docx
+
+# Screenshot Jira (mantenuti localmente per consegna)
+*.png
+*.jpg
+*.jpeg
+
+# File di output per consegna (mantenuti localmente)
+terminal_output.txt
+git_graph.txt
+gitgraph.txt
+jira_tickets.txt
+
+# Directory temporanee
+service-status-maintenance/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
